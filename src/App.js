@@ -1,6 +1,5 @@
 // Default imports
 import React, {Component} from "react";
-import './App.css';
 
 //Custom imports
 import Routes from './routes/routes';

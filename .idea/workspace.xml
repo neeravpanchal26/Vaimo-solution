@@ -2,13 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f31f58c-9d6f-41f7-966d-b101714349e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/CssSyntaxError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/CssSyntaxError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/Warning.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/Warning.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/icss-utils/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/createICSSRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/extractICSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/replaceSymbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/replaceValueSymbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/icss-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/topologicalSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/topologicalSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-values/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-values/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-values/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-values/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-values/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-values/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +56,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="247">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#19#45#0" expanded="true" />
               </folding>
@@ -42,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="381">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#19#58#0" expanded="true" />
               </folding>
@@ -55,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/src/actions/action.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -89,18 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/Vaimo-solution.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -123,25 +151,6 @@
               <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="productDetail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -149,7 +158,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -158,7 +169,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -183,20 +194,21 @@
       <option name="presentableId" value="Default" />
       <updated>1622895606989</updated>
       <workItem from="1622895609678" duration="11850000" />
+      <workItem from="1622965041384" duration="776000" />
+      <workItem from="1622970892183" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11850000" />
+    <option name="totallyTimeSpent" value="12656000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.11402439" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.116463415" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -208,6 +220,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -249,29 +262,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#19#28#0" expanded="true" />
-            <element signature="e#97#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -279,6 +271,22 @@
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#19#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -289,18 +297,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="247">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#19#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="381">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#19#58#0" expanded="true" />
           </folding>

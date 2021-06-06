@@ -1,0 +1,145 @@
+.image {
+  width: 416px;
+  height: 416px;
+  position: fixed;
+  top: 48px;
+  left: 72px;
+}
+
+.infoBox {
+  width: 526px;
+  height: 544px;
+  position: fixed;
+  top: 48px;
+  left: 512px;
+}
+
+.priceBox {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+  width: 526px;
+  height: 64px;
+}
+
+.tagForeground {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 2px;
+  width: 111px;
+  height: 20px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.tagBackground {
+  background-color: #EDF0F3;
+  border-radius: 2px;
+  width: 111px;
+  height: 20px;
+}
+
+#ready_to_ship.badgeBackground {
+  background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+  border-radius: 2px 0 0 2px;
+  width: 90px;
+  height: 20px;
+}
+
+#ready_to_ship.badgeForeground {
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 2px 0 0 2px;
+  width: 90px;
+  height: 20px;
+}
+
+#in_stock.badgeBackground {
+  position: relative;
+  background-color: #FFF0E6;
+  width: 75px;
+  height: 20px;
+}
+
+#in_stock.badgeForeground {
+  background-color: rgba(255, 255, 255, 0);
+  width: 75px;
+  height: 20px;
+  color: #FF6600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+#fast_dispatch.badgeBackground {
+  background-color: #FFF0E6;
+  border-radius: 0 2px 2px 0;
+  width: 106px;
+  height: 20px;
+}
+
+#fast_dispatch.badgeForeground {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0 2px 2px 0;
+  width: 106px;
+  height: 20px;
+  color: #FF6600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.productName {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  width: 526px;
+  text-align: left;
+}
+
+.review {
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.buyers {
+  color: #333333;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.ratingCount {
+  color: #FF6600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.price {
+  color: #FF6600;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: left;
+}
+
+.oldPrice {
+  color: #999999;
+  text-decoration: line-through;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.discountPercentage {
+  color: #FF6600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}

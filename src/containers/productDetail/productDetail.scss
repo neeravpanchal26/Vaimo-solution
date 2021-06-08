@@ -28,8 +28,6 @@
   height: 20px;
   color: #999999;
   font-size: 12px;
-  line-height: 16px;
-  text-align: left;
 }
 
 .tagBackground {
@@ -37,6 +35,7 @@
   border-radius: 2px;
   width: 111px;
   height: 20px;
+  text-align: center;
 }
 
 #ready_to_ship.badgeBackground {
@@ -50,7 +49,6 @@
   color: #FFFFFF;
   font-size: 12px;
   line-height: 16px;
-  text-align: left;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 2px 0 0 2px;
   width: 90px;
@@ -70,8 +68,6 @@
   height: 20px;
   color: #FF6600;
   font-size: 12px;
-  line-height: 16px;
-  text-align: left;
 }
 
 #fast_dispatch.badgeBackground {
@@ -88,8 +84,6 @@
   height: 20px;
   color: #FF6600;
   font-size: 12px;
-  line-height: 16px;
-  text-align: left;
 }
 
 .productName {
@@ -103,43 +97,102 @@
 .review {
   color: #999999;
   font-size: 12px;
-  line-height: 16px;
-  text-align: left;
 }
 
 .buyers {
   color: #333333;
   font-size: 12px;
-  line-height: 16px;
-  text-align: left;
 }
 
 .ratingCount {
   color: #FF6600;
   font-size: 12px;
-  line-height: 16px;
-  text-align: left;
 }
 
 .price {
   color: #FF6600;
   font-size: 16px;
   font-weight: bold;
-  line-height: 24px;
-  text-align: left;
 }
 
 .oldPrice {
   color: #999999;
   text-decoration: line-through;
   font-size: 14px;
-  line-height: 16px;
-  text-align: left;
 }
 
 .discountPercentage {
   color: #FF6600;
   font-size: 14px;
-  line-height: 16px;
-  text-align: left;
+}
+
+.discount {
+  color: #999999;
+  font-size: 14px;
+}
+
+.timer {
+  color: #999999;
+  font-size: 16px;
+}
+
+.options {
+  color: #999999;
+  font-size: 14px;
+}
+
+.tradeAssuranceText {
+  color: #999999;
+  font-size: 14px;
+}
+
+.protectAli {
+  color: #999999;
+  font-size: 12px;
+}
+
+.twentyOptions {
+  color: #333333;
+  font-size: 14px;
+}
+
+.rightSideBar {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+  width: 306px;
+  height: 256px;
+  position: fixed;
+  top: 48px;
+  left: 1062px;
+  padding: 25px;
+}
+
+.cut-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 50%;
+  white-space: nowrap;
+}
+
+.loginButton {
+  background-color: #FF6600;
+  border: 0px;
+  border-radius: 20px;
+  width: 258px;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contactButton {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #FF6600;
+  border-radius: 20px;
+  width: 258px;
+  height: 40px;
+  color: #FF6600;
+  font-size: 14px;
+  text-align: center;
 }

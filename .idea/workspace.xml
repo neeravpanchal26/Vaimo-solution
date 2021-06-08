@@ -2,52 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f31f58c-9d6f-41f7-966d-b101714349e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quantityButton/quanityButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quantityButton/quantityButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ratingStars/ratingStars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/timer/timer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/CssSyntaxError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/CssSyntaxError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/Warning.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/Warning.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-icss-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-import-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/plugins/postcss-url-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/runtime/getUrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/dist/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-env/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/preset-env/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/preset-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webassemblyjs/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@webpack-cli/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@xtuc/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/._.DS_Store" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/css-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/icss-utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/createICSSRules.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/extractICSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/replaceSymbols.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/lib/replaceValueSymbols.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/icss-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/icss-utils/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/topologicalSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-extract-imports/src/topologicalSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-local-by-default/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-scope/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-scope/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-values/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-values/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-values/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-values/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/postcss-modules-values/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-modules-values/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/._.DS_Store" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/style-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/productDetail/productDetail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,43 +44,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
+        <entry file="file://$PROJECT_DIR$/src/components/quantityButton/quantityButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="556">
+              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+              <folding>
+                <element signature="e#19#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/routes.js">
+        <entry file="file://$PROJECT_DIR$/src/components/quantityButton/quanityButton.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="-557">
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="161" column="6" lean-forward="true" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
               <folding>
-                <element signature="e#19#45#0" expanded="true" />
+                <element signature="e#19#58#0" expanded="true" />
+                <element signature="e#145#199#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="191" column="22" lean-forward="true" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#19#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/action.js">
+        <entry file="file://$PROJECT_DIR$/src/app.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -124,6 +120,13 @@
         <option value="$PROJECT_DIR$/src/containers/productDetail/productDetail.less" />
         <option value="$PROJECT_DIR$/src/containers/productDetail/productDetail.css" />
         <option value="$PROJECT_DIR$/src/reducers/reducer.js" />
+        <option value="$PROJECT_DIR$/src/components/timer/timer.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/components/quantityButton/quantityButton.js" />
+        <option value="$PROJECT_DIR$/src/app.scss" />
+        <option value="$PROJECT_DIR$/src/components/ratingStars/ratingStars.js" />
+        <option value="$PROJECT_DIR$/src/components/quantityButton/quanityButton.scss" />
+        <option value="$PROJECT_DIR$/src/containers/productDetail/productDetail.scss" />
         <option value="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" />
       </list>
     </option>
@@ -149,7 +152,52 @@
             <path>
               <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="quantityButton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ratingStars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="timer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="productDetail" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,20 +244,26 @@
       <workItem from="1622895609678" duration="11850000" />
       <workItem from="1622965041384" duration="776000" />
       <workItem from="1622970892183" duration="30000" />
+      <workItem from="1623049564258" duration="1355000" />
+      <workItem from="1623056400366" duration="3854000" />
+      <workItem from="1623063218051" duration="1305000" />
+      <workItem from="1623078311733" duration="8706000" />
+      <workItem from="1623141250716" duration="4866000" />
+      <workItem from="1623164471911" duration="10810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12656000" />
+    <option name="totallyTimeSpent" value="43552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.116463415" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.11768293" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32925585" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -231,16 +285,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/src/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -251,42 +296,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#146#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css" />
+    <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.css" />
+    <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#19#58#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-96" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -305,6 +321,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="e#77#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#74#100#0" expanded="true" />
+            <element signature="e#200#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/action.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -312,13 +359,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/timer/timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/quantityButton/quantityButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="e#19#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/2B288867-9DEB-4BA1-B6FB-682E9A5A114B.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/228E1B06-945F-43B3-9E48-FC5DB82AE615.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/280826B2-7262-474E-A0AF-ACE53F281466.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/3026E33B-0F0C-481C-BDEC-FB9A0CFE12D4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/43913126-CE8C-48FB-AEBD-1E93A858523C.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ratingStars/ratingStars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/quantityButton/quanityButton.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="191" column="22" lean-forward="true" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="568">
+          <caret line="161" column="6" lean-forward="true" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
           <folding>
             <element signature="e#19#58#0" expanded="true" />
+            <element signature="e#145#199#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>

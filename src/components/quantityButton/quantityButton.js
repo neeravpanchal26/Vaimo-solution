@@ -8,7 +8,7 @@ const QuantityButton = (props) => {
 
     // Addition function
     function handlePlus() {
-        if (count === null || count === "") {
+        if (count === 0) {
             setCount(1);
         } else {
             setCount(count + 1);

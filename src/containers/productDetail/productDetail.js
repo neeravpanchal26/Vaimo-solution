@@ -143,13 +143,27 @@ class ProductDetail extends Component {
                     </div>
 
                     <div className='rightSideBar'>
-                        <div className='cut-text tradeAssuranceText'>
-                            Ship to <u>{product.shipping.method.country}<br/> by {product.shipping.method.title}</u>
+                        <div className='flex'>
+                            <div className='cut-text tradeAssuranceText'>
+                                Ship to <u>{product.shipping.method.country}<br/> by {product.shipping.method.title}</u>
+                            </div>
+                            <span className='total'>Total here</span>
                         </div>
-                        <div className='tradeAssuranceText paddingTop_Bottom_7'>Lead
-                            Time {product.shipping.lead_time.value}</div>
-                        <div className='tradeAssuranceText paddingTop_Bottom_7'>Shipping
-                            Time {product.shipping.method.shipping_time.value}</div>
+                        <div className='tradeAssuranceText paddingTop_Bottom_7'>
+                            Lead Time {product.shipping.lead_time.value}&nbsp;
+                            <div className='tooltip'>
+                                <img src='public/icons8-info.png' alt='clock'/>
+                                <span
+                                    className='tooltiptext'>{product.shipping.lead_time.info} {product.shipping.lead_time.value}</span>
+                            </div>
+                        </div>
+                        <div className='tradeAssuranceText paddingTop_Bottom_7'>
+                            Shipping Time {product.shipping.method.shipping_time.value}&nbsp;
+                            <div className='tooltip'>
+                                <img src='public/icons8-info.png' alt='clock'/>
+                                <span className='tooltiptext'>{product.shipping.method.shipping_time.info}</span>
+                            </div>
+                        </div>
                         <button className='loginButton'>Login to Purchase</button>
                         <button className='contactButton'>
                             <img src='public/DE463F6E-D57D-4B9C-8F2A-76099E63085D.png' alt='env'/>

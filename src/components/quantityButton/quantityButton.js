@@ -13,6 +13,7 @@ const QuantityButton = (props) => {
         } else {
             setCount(count + 1);
         }
+        props.total(props.price * count);
     }
 
     // Minus function
@@ -20,6 +21,7 @@ const QuantityButton = (props) => {
         if (count > 0) {
             setCount(count - 1);
         }
+        props.total(props.price * count);
     }
 
     // Value change function
@@ -29,6 +31,7 @@ const QuantityButton = (props) => {
         if (e.target.value === "" || regularExpression.test(e.target.value)) {
             const x = Number(e.target.value);
             setCount(x);
+            props.total(props.price * count);
         } else {
         }
     }

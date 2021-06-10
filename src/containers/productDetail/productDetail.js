@@ -10,6 +10,12 @@ import RatingStars from '../../components/ratingStars/ratingStars';
 import QuantityButton from '../../components/quantityButton/quantityButton';
 
 class ProductDetail extends Component {
+    // Default constructor
+    constructor(props) {
+        super(props);
+        this.state = {sum: 0};
+    }
+
     // Form Load
     componentDidMount() {
         this.props.GetProductDetail();
@@ -44,10 +50,21 @@ class ProductDetail extends Component {
 
     // Render Quantity buttons per option
     renderQuantityButtons = (object) => {
+        function handleSum(sum) {
+            // Set state here
+            console.log(sum);
+        }
+
         return Object.keys(object).map(function (keyName, keyIndex) {
             return (
-                <QuantityButton option={object[keyName].label} price={object[keyName].price.value}
-                                currency={object[keyName].price.currency.symbol}/>
+                <QuantityButton
+                    option={object[keyName].label}
+                    price={object[keyName].price.value}
+                    currency={object[keyName].price.currency.symbol}
+                    total={(sum) => {
+                        handleSum(sum)
+                    }}
+                />
             )
         })
     };
@@ -147,10 +164,12 @@ class ProductDetail extends Component {
                             <div className='cut-text tradeAssuranceText'>
                                 Ship to <u>{product.shipping.method.country}<br/> by {product.shipping.method.title}</u>
                             </div>
-                            <span className='total'>Total here</span>
+                            <div
+                                className='total'>{product.options['1080p'].price.currency.symbol} {this.state.sum}
+                            </div>
                         </div>
                         <div className='tradeAssuranceText paddingTop_Bottom_7'>
-                            Lead Time {product.shipping.lead_time.value}&nbsp;
+                            Lead Time <b>{product.shipping.lead_time.value}</b>&nbsp;
                             <div className='tooltip'>
                                 <img src='public/icons8-info.png' alt='clock'/>
                                 <span
@@ -158,13 +177,16 @@ class ProductDetail extends Component {
                             </div>
                         </div>
                         <div className='tradeAssuranceText paddingTop_Bottom_7'>
-                            Shipping Time {product.shipping.method.shipping_time.value}&nbsp;
+                            Shipping Time <b>{product.shipping.method.shipping_time.value}</b>&nbsp;
                             <div className='tooltip'>
                                 <img src='public/icons8-info.png' alt='clock'/>
                                 <span className='tooltiptext'>{product.shipping.method.shipping_time.info}</span>
                             </div>
                         </div>
-                        <button className='loginButton'>Login to Purchase</button>
+                        <button className='loginButton'>Login
+                            to
+                            Purchase
+                        </button>
                         <button className='contactButton'>
                             <img src='public/DE463F6E-D57D-4B9C-8F2A-76099E63085D.png' alt='env'/>
                             Contact the supplier

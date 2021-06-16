@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f31f58c-9d6f-41f7-966d-b101714349e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quantityButton/quantityButton copy.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/quantityButton/quantityButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quantityButton/quantityButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" afterDir="false" />
     </list>
@@ -15,7 +12,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
+              <folding>
+                <element signature="e#19#58#0" expanded="true" />
+                <element signature="e#145#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/quantityButton/quantityButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <element signature="e#19#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +95,37 @@
             <path>
               <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="quantityButton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Vaimo-solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vaimo-solution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="productDetail" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -147,20 +201,21 @@
       <workItem from="1623827245886" duration="12256000" />
       <workItem from="1623858395732" duration="359000" />
       <workItem from="1623859118749" duration="4758000" />
+      <workItem from="1623873633207" duration="2659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85670000" />
+    <option name="totallyTimeSpent" value="88329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1487805" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4987805" weight="0.32925585" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4987805" visible="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5012195" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -237,16 +292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/quantityButton/quantityButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="e#19#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -354,10 +399,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/quantityButton/quantityButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#19#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+        <state relative-caret-position="485">
+          <caret line="88" column="48" lean-forward="true" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="48" />
           <folding>
             <element signature="e#19#58#0" expanded="true" />
             <element signature="e#145#199#0" expanded="true" />

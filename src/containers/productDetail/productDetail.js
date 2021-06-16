@@ -14,6 +14,7 @@ class ProductDetail extends Component {
     constructor(props) {
         super(props);
         this.state = {sum: 0};
+        this.renderQuantityButtons = this.renderQuantityButtons.bind(this);
     }
 
     // Form Load
@@ -52,10 +53,12 @@ class ProductDetail extends Component {
     renderQuantityButtons = (object) => {
         const arrayOfObject = [];
         const sumPerItem = [];
-        let totalSum = 0;
         handleProduct = handleProduct.bind(this);
 
         function handleProduct(sum) {
+            // Declare variable
+            let tempSum = 0;
+
             // Pushes object into array if it does not exist.
             if (arrayOfObject.find(x => x.id === sum.id) === undefined) {
                 arrayOfObject.push(sum);
@@ -74,13 +77,17 @@ class ProductDetail extends Component {
                 sumPerItem.filter(g => g.id === z.id).map(g => g.total = (z.price * z.count));
 
                 if (sumPerItem.length === 1) {
-                    totalSum = sumPerItem[0].total;
+                    tempSum = sumPerItem[0].total;
                 } else if (sumPerItem.length === 2) {
-                    totalSum = sumPerItem[0].total + sumPerItem[1].total;
+                    tempSum = (sumPerItem[0].total + sumPerItem[1].total);
                 } else if (sumPerItem.length === 3) {
-                    totalSum = sumPerItem[0].total + sumPerItem[1].total + sumPerItem[2].total;
+                    tempSum = (sumPerItem[0].total + sumPerItem[1].total + sumPerItem[2].total);
                 }
-                this.setState({sum: totalSum});
+
+                // Setting state
+                this.setState({sum: tempSum}, function () {
+                    console.log(this.state.sum);
+                })
             });
         }
 

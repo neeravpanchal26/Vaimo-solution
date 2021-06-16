@@ -11,14 +11,17 @@ class QuantityButton extends Component {
 
     // Addition function
     handlePlus = () => {
-        this.setState({count: this.state.count + 1});
-        this.props.count({id: this.props.option, count: this.state.count, price: this.props.price});
+        this.setState({count: this.state.count + 1}, function () {
+            this.props.count({id: this.props.option, count: this.state.count, price: this.props.price});
+        });
     };
 
     // Minus function
     handleMinus = () => {
         if (this.state.count > 0) {
-            this.setState({count: this.state.count - 1});
+            this.setState({count: this.state.count - 1}, function () {
+                this.props.count({id: this.props.option, count: this.state.count, price: this.props.price});
+            });
         }
     };
 

@@ -8,7 +8,6 @@ import {GetProductDetail} from "../../actions/action";
 import Timer from '../../components/timer/timer';
 import RatingStars from '../../components/ratingStars/ratingStars';
 import QuantityButton from '../../components/quantityButton/quantityButton';
-import CurrencyFormat from 'react-currency-format';
 
 class ProductDetail extends Component {
     // Default constructor
@@ -57,26 +56,32 @@ class ProductDetail extends Component {
         handleProduct = handleProduct.bind(this);
 
         function handleProduct(sum) {
+            // Pushes object into array if it does not exist.
             if (arrayOfObject.find(x => x.id === sum.id) === undefined) {
                 arrayOfObject.push(sum);
             }
 
+            // Find the a specific object and updates it's count
             arrayOfObject.filter(x => x.id === sum.id).map(x => x.count = sum.count);
 
-            arrayOfObject.map((x) => {
-                if (sumPerItem.find(y => y.id === x.id) === undefined) {
-                    sumPerItem.push({id: x.id, total: (x.price * x.count)});
+            arrayOfObject.map((z) => {
+                // Pushes object into array if it does not exist.
+                if (sumPerItem.find(f => f.id === z.id) === undefined) {
+                    sumPerItem.push({id: z.id, total: z.price * z.count});
                 }
 
-                sumPerItem.find((y) => {
-                    if (y.id === x.id) {
-                        y.total = x.price * x.count;
-                    }
-                });
-            });
+                // Find the a specific object and updates it's total
+                sumPerItem.filter(g => g.id === z.id).map(g => g.total = (z.price * z.count));
 
-            totalSum = sumPerItem[0].sum + sumPerItem[1].sum + sumPerItem[2].sum;
-            this.setState({sum: totalSum});
+                if (sumPerItem.length === 1) {
+                    totalSum = sumPerItem[0].total;
+                } else if (sumPerItem.length === 2) {
+                    totalSum = sumPerItem[0].total + sumPerItem[1].total;
+                } else if (sumPerItem.length === 3) {
+                    totalSum = sumPerItem[0].total + sumPerItem[1].total + sumPerItem[2].total;
+                }
+                this.setState({sum: totalSum});
+            });
         }
 
         return Object.keys(object).map(function (keyName) {
@@ -98,7 +103,7 @@ class ProductDetail extends Component {
             const {product} = info;
             return (
                 <div>
-                    <img src={product.gallery[0].main} className='image'/>
+                    <img src={product.gallery[0].main} className='image' alt='productImage'/>
                     <div className='infoBox'>
                         <div className='flex'>
                             {this.renderShippingBadges(product.shipping.props.ready_to_ship, 'Ready to Ship', 'ready_to_ship', '')}

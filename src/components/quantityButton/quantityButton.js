@@ -19,7 +19,6 @@ class QuantityButton extends Component {
     handleMinus = () => {
         if (this.state.count > 0) {
             this.setState({count: this.state.count - 1});
-
         }
     };
 
@@ -54,7 +53,7 @@ class QuantityButton extends Component {
             </div>
         )
     };
-};
+}
 
 // Default export
 export default QuantityButton;

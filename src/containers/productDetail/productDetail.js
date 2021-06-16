@@ -8,6 +8,7 @@ import {GetProductDetail} from "../../actions/action";
 import Timer from '../../components/timer/timer';
 import RatingStars from '../../components/ratingStars/ratingStars';
 import QuantityButton from '../../components/quantityButton/quantityButton';
+import CurrencyFormat from 'react-currency-format';
 
 class ProductDetail extends Component {
     // Default constructor
@@ -50,20 +51,41 @@ class ProductDetail extends Component {
 
     // Render Quantity buttons per option
     renderQuantityButtons = (object) => {
-        function handleSum(sum) {
-            // Set state here
-            console.log(sum);
+        const arrayOfObject = [];
+        const sumPerItem = [];
+        let totalSum = 0;
+        handleProduct = handleProduct.bind(this);
+
+        function handleProduct(sum) {
+            if (arrayOfObject.find(x => x.id === sum.id) === undefined) {
+                arrayOfObject.push(sum);
+            }
+
+            arrayOfObject.filter(x => x.id === sum.id).map(x => x.count = sum.count);
+
+            arrayOfObject.map((x) => {
+                if (sumPerItem.find(y => y.id === x.id) === undefined) {
+                    sumPerItem.push({id: x.id, total: (x.price * x.count)});
+                }
+
+                sumPerItem.find((y) => {
+                    if (y.id === x.id) {
+                        y.total = x.price * x.count;
+                    }
+                });
+            });
+
+            totalSum = sumPerItem[0].sum + sumPerItem[1].sum + sumPerItem[2].sum;
+            this.setState({sum: totalSum});
         }
 
-        return Object.keys(object).map(function (keyName, keyIndex) {
+        return Object.keys(object).map(function (keyName) {
             return (
                 <QuantityButton
                     option={object[keyName].label}
                     price={object[keyName].price.value}
                     currency={object[keyName].price.currency.symbol}
-                    total={(sum) => {
-                        handleSum(sum)
-                    }}
+                    count={(object) => handleProduct(object)}
                 />
             )
         })
@@ -101,18 +123,18 @@ class ProductDetail extends Component {
                             <div className='paddingTop_Bottom_20'>
                                 <div className='flex'>
                                     <div className='price'>
-                                        {product.options.battery_accessories.price.currency.symbol}{product.options.battery_accessories.price.value}
+                                        {product.options.battery_accessories.price.currency.symbol}{Number(product.options.battery_accessories.price.value).toFixed(2)}
                                         &nbsp;-&nbsp;
-                                        {product.options['1080p'].price.currency.symbol}{product.options['1080p'].price.value}
+                                        {product.options['1080p'].price.currency.symbol}{Number(product.options['1080p'].price.value).toFixed(2)}
                                     </div>
                                     <span className='tradeAssuranceText'>&nbsp;&nbsp;/Option | </span>
                                     <span className='twentyOptions'>&nbsp;2 Options</span>
                                     <span className='tradeAssuranceText'>&nbsp;(Min.Order)</span>
                                 </div>
                                 <div className='oldPrice'>
-                                    {product.options.battery_accessories.old_price.currency.symbol}{product.options.battery_accessories.old_price.value}
+                                    {product.options.battery_accessories.old_price.currency.symbol}{Number(product.options.battery_accessories.old_price.value).toFixed(2)}
                                     &nbsp;-&nbsp;
-                                    {product.options['1080p'].old_price.currency.symbol}{product.options['1080p'].old_price.value}
+                                    {product.options['1080p'].old_price.currency.symbol}{Number(product.options['1080p'].old_price.value).toFixed(2)}
                                 </div>
                             </div>
                         </div>
@@ -165,8 +187,7 @@ class ProductDetail extends Component {
                                 Ship to <u>{product.shipping.method.country}<br/> by {product.shipping.method.title}</u>
                             </div>
                             <div
-                                className='total'>{product.options['1080p'].price.currency.symbol} {this.state.sum}
-                            </div>
+                                className='total'>{product.options['1080p'].price.currency.symbol} {Number(this.state.sum).toFixed(2)}</div>
                         </div>
                         <div className='tradeAssuranceText paddingTop_Bottom_7'>
                             Lead Time <b>{product.shipping.lead_time.value}</b>&nbsp;

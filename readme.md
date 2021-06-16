@@ -1,3 +1,7 @@
+# Getting Started - (Vaimo Front-end Solution)
+
+`Npm install` Please run this command first in-order to install developmental dependencies.
+
 `Npm run start`
 This command deploys the development server.
 

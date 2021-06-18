@@ -118,9 +118,8 @@ class ProductDetail extends Component {
                             {this.renderShippingBadges(product.shipping.props.fast_dispatch, 'Fast Dispatch', 'fast_dispatch', 'public/2B288867-9DEB-4BA1-B6FB-682E9A5A114B.png')}
                         </div>
 
-                        <div className='flex'>
-                            <div className='productName'>{product.name}</div>
-                            <div>{this.renderTags(product.tags)}</div>
+                        <div>
+                            <div className='productName'>{product.name} {this.renderTags(product.tags)}</div>
                         </div>
 
                         <div className='ratingBox flex paddingTop_Bottom_7'>

@@ -53,3 +53,21 @@
   font-size: 14px;
   text-align: left;
 }
+
+@media only screen and (max-width: 360px) {
+  .surface {
+    width: 30px;
+  }
+
+  .minusButton {
+    width: 30px;
+  }
+
+  .enableMinusButton {
+    width: 30px;
+  }
+
+  .plusButton {
+    width: 30px;
+  }
+}

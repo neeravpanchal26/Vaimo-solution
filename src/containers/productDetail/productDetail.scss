@@ -244,10 +244,19 @@
     position: relative;
     top: 0;
     left: 0;
+    width: auto;
   }
 
   .rightSideBar {
     position: relative;
     left: 0;
+  }
+
+  .productName {
+    width: auto;
+  }
+
+  .tagBackground {
+    float: right;
   }
 }

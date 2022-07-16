@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f31f58c-9d6f-41f7-966d-b101714349e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/quantityButton/quanityButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/quantityButton/quanityButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/productDetail/productDetail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/productDetail/productDetail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,24 +12,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            <state relative-caret-position="427">
+              <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
               <folding>
                 <element signature="e#19#58#0" expanded="true" />
                 <element signature="e#145#199#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="818">
-              <caret line="260" column="3" lean-forward="true" selection-start-line="260" selection-start-column="3" selection-end-line="260" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -73,8 +61,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/quantityButton/quantityButton.js" />
         <option value="$PROJECT_DIR$/src/components/quantityButton/quanityButton.scss" />
-        <option value="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" />
         <option value="$PROJECT_DIR$/src/containers/productDetail/productDetail.scss" />
+        <option value="$PROJECT_DIR$/src/containers/productDetail/productDetail.js" />
       </list>
     </option>
   </component>
@@ -202,20 +190,22 @@
       <workItem from="1623859118749" duration="4758000" />
       <workItem from="1623873633207" duration="2659000" />
       <workItem from="1624005897244" duration="1429000" />
+      <workItem from="1624448359397" duration="276000" />
+      <workItem from="1624875828796" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89758000" />
+    <option name="totallyTimeSpent" value="90076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15182927" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1554878" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4987805" weight="0.32925585" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4987805" visible="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5012195" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -402,21 +392,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="260" column="3" selection-start-line="260" selection-start-column="3" selection-end-line="260" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        <state relative-caret-position="427">
+          <caret line="90" column="15" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
           <folding>
             <element signature="e#19#58#0" expanded="true" />
             <element signature="e#145#199#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/productDetail/productDetail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="260" column="3" lean-forward="true" selection-start-line="260" selection-start-column="3" selection-end-line="260" selection-end-column="3" />
         </state>
       </provider>
     </entry>
